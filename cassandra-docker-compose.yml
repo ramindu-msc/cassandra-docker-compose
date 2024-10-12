@@ -8,7 +8,7 @@ services:
       - "9042:9042"
       - "7000:7000"
     environment:
-      - CASSANDRA_SEEDS=cassandra_node1,cassdra_node2
+      - CASSANDRA_SEEDS=cassandra_node1,cassandra_node2
       - CASSANDRA_BROADCAST_ADDRESS=cassandra_node1
     networks:
       - local
